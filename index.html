@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <!-- Home -->
+    
+    <header>
+      <a href="#" class="logo">ARIF</a>
+
+        <nav class="navbar" id="myNavbar">
+            <a href="#bagian1" class="active"> Home</a>
+            <a href="#bagian2" >About Me</a>
+            <a href="#bagian3" >Skills</a>
+            <a href="#bagian4" >Education</a>
+            <a href="#bagian5" >Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="toggleNav()">&#9776;</a>
+        </nav>
+    </header>
+    <section id="bagian1" class="home">
+        <div class="home-img">
+            <img src="Img/aku.jpg" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Hi, It's <span>ARIF</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p>Hai saya <span class="SHome">ARIF RAMADANI</span>. Saya adalah seorang pelajar dari <span class="SHome">SMPN 3 KEPANJEN</span>. Umur saya masih sekitar 15 Tahun dan berada pada Kelas <span class="SHome">IX A</span>. Cita-cita saya adalah menjadi <span class="SHome">Full Stack Developer</span>.</p>
+            <div class="social-icons">
+<!--                 <a onclick="handleNavClick(event)" href="#"><i class="fa-brands fa-linkedin"></i></a> -->
+                <a onclick="handleNavClick(event); keGit()" href="#"><i class="fa-brands fa-github"></i></a>
+                <a onclick="handleNavClick(event); keX()" href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a onclick="handleNavClick(event); keIg()" href="#"><i class="fa-brands fa-instagram"></i>
+            </div>
+            <a onclick="handleNavClick(event)" href="#bagian2" class="btn">Hire me</a>
+        </div>
+    </section>
+        <!-- homeEnd -->
+        
+        <!-- About -->
+<section id="bagian2" class="about">
+  <div class="about-judul">
+    <h1>About <span class="me-bg">Me</span></h1>
+  </div>
+
+    <p class="aboutP">Dolor ad reprehenderit culpa aliqua. Nostrud Lorem enim incididunt ad dolor irure est. In nisi consectetur laborum anim est. Duis est laborum officia ut exercitation cupidatat proident. Eu velit adipisicing dolor consectetur sint pariatur quis fugiat est elit ipsum.</p>
+
+  <br>
+  <span class="sub-j me-bg">Alamat</span>
+  <br>
+  <!-- <strong>Jl.Raden Prayetno</strong> -->
+  
+</section>  
+       <!-- about end -->
+       
+       <!-- Skills -->
+<section id="bagian3" class="skills">
+  <div class="skilJudul">
+    <h1 class="Sjudul">Skil<span class="SJudul">ls</span></h1>
+  </div>
+  <div class="PSkills">
+    <ul>
+      <li>Pemrograman<br>
+      Penguasaan Bahasa Pemrograman (Python, HTML/CSS, JavaScript) Saya baru belajar 1 bulan dalam mengembangkan Website menggunakan berbagai bahasa pemrograman. Dalam proyek-proyek saya, saya telah berhasil membangun sistem backend dari javascript dasar dan tampilan frontend yang responsif.
+      </li>
+      <br>
+      <li>Desain Grafis (Alight Motion, Canva)<br>
+      Saya juga masih belajar dalam membuat desain visual untuk berbagai kebutuhan, termasuk logo, poster, dan UI/UX untuk Website.</li>
+
+    </ul>
+  </div>
+  
+</section>
+       <!-- Skills End -->
+       
+       <!-- Education -->
+<section id="bagian4" class="Edu">
+  <div class="edu-judul">
+    <h1 class="EJudul">Educa<span class="edj-bg">tion</span></h1>
+  </div>
+  <p class="PEdu">Mollit incididunt commodo id commodo minim laboris in laboris mollit veniam. Ipsum elit ex aliquip amet. Enim sint eiusmod mollit ex. Officia aute ex ullamco ipsum.</p>
+</section>
+
+      <!-- Contact -->
+<section class="Cont" id="bagian5">
+  <div class="con-judul">
+    <h1 class="CJudul"><span class="c-bg">Contact</span>Me</h1>
+    </div>
+
+  <h3 class="PCon">Hmm Aute esse Lorem fugiat incididunt aliquip id enim. Anim non duis non duis consequat laborum magna qui et non cupidatat mollit. Cillum officia laboris eu duis id aliquip exercitation non consectetur consectetur voluptate elit eiusmod. Sit elit eiusmod Lorem veniam mollit.</h3>
+  <a></a>
+  
+</section>
+        
+    <script src="main.js"></script>
+</body>
+</html>
